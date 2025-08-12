@@ -1,0 +1,6 @@
+* text=auto eol=lf
+# Track big binaries in LFS (add more as needed)
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.hdf5 filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
