@@ -1,0 +1,3 @@
+We start with simulating methane absorbance. By using the HITRAN API, we can download all existing lines for the wavenumber range of interest, as opposed to manually choosing lines above a linestrength threshold.
+
+You first download hapi.py from the https://hitran.org/hapi/ and save it to your working directory. The latest simulation script will generate a csv file with the file name format of TTTP_P-LLLL-XXXXX.csv. TTT is the three digit temperature, P_P is the three digit temperature where the decimal is replaced with an underscore. LLLL is the four digit pathlength  in cm with leading zeros if necessary, and XXXXX is the mole fraction in ppm with leading zeros if necessary.
