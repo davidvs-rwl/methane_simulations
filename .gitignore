@@ -1,0 +1,38 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build/dist
+build/
+dist/
+*.egg-info/
+
+# Data & artifacts (keep big/raw stuff out of git)
+data/
+outputs/
+
+# Secrets & local config
+*.env
+.env.*
+secrets*.json
+
+# Large models/checkpoints go to Git LFS
+# (gitattributes below will track these)
+__pycache__/
+outputs/
